@@ -1,3 +1,4 @@
+#####################
 FROM python:3.9-slim
 
 RUN groupadd -r appuser && useradd -r -g appuser appuser
